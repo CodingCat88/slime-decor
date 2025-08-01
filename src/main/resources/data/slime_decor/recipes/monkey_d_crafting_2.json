@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_wool"
+    },
+    "b": {
+      "item": "minecraft:hay_block"
+    },
+    "c": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "slime_decor:monkey_d_luffy_plushie",
+    "count": 1
+  }
+}

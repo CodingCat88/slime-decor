@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "slime_decor:monkey_d_luffy_plushie"
+    },
+    "title": {
+      "translate": "advancements.none_piece.title"
+    },
+    "description": {
+      "translate": "advancements.none_piece.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "none_piece_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "slime_decor:monkey_d_luffy_plushie"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:adventure/sleep_in_bed"
+}

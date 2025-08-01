@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cad"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:brick"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "minecraft:lime_dye"
+    },
+    "d": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "slime_decor:creeper_mug",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_wool"
+    },
+    "b": {
+      "item": "minecraft:purple_wool"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "slime_decor:uzi_plushie",
+    "count": 1
+  }
+}

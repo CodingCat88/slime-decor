@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:pink_wool"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "slime_decor:kirby_plushie",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "slime_decor:custom/prototoaster",
+  "textures": {
+    "all": "slime_decor:block/pt1",
+    "particle": "slime_decor:block/pt1",
+    "0": "slime_decor:block/pt1",
+    "missing": "slime_decor:block/"
+  },
+  "render_type": "solid"
+}

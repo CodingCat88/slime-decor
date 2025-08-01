@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bread"
+    },
+    "b": {
+      "item": "minecraft:purple_dye"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "slime_decor:proto_toaster",
+    "count": 1
+  }
+}

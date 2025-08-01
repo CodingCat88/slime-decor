@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "slime_decor:n_plush"
+    },
+    "title": {
+      "translate": "advancements.n.title"
+    },
+    "description": {
+      "translate": "advancements.n.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "n_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "slime_decor:n_plush"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:adventure/sleep_in_bed"
+}

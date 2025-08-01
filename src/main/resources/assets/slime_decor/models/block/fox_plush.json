@@ -1,0 +1,15 @@
+{
+  "parent": "slime_decor:custom/foxplush",
+  "textures": {
+    "all": "slime_decor:block/texture7",
+    "particle": "slime_decor:block/texture7",
+    "0": "slime_decor:block/f",
+    "1": "slime_decor:block/texture2",
+    "2": "slime_decor:block/texture3",
+    "3": "slime_decor:block/texture4",
+    "4": "slime_decor:block/texture5",
+    "5": "slime_decor:block/texture6",
+    "6": "slime_decor:block/texture7"
+  },
+  "render_type": "solid"
+}

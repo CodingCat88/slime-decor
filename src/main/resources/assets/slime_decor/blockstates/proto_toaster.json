@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "slime_decor:block/proto_toaster"
+    },
+    "facing=east": {
+      "model": "slime_decor:block/proto_toaster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "slime_decor:block/proto_toaster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "slime_decor:block/proto_toaster",
+      "y": 270
+    }
+  }
+}

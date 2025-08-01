@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersdelight:straw_bale"
+    },
+    {
+      "item": "slime_decor:fox_plush"
+    }
+  ],
+  "result": {
+    "item": "slime_decor:monkey_d_foxy",
+    "count": 1
+  },
+    "conditions": [ {
+    "type": "forge:mod_loaded",
+    "modid": "farmersdelight"
+  }
+  ]
+}

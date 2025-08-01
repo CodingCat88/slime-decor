@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "slime_decor:fox_plush"
+    }
+  ],
+  "result": {
+    "item": "slime_decor:monkey_d_foxy",
+    "count": 1
+  }
+}

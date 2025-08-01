@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_wool"
+    },
+    "b": {
+      "item": "farmersdelight:straw_bale"
+    },
+    "c": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "slime_decor:monkey_d_luffy_plushie",
+    "count": 1
+  },
+      "conditions": [ {
+    "type": "forge:mod_loaded",
+    "modid": "farmersdelight"
+  }
+  ]
+}

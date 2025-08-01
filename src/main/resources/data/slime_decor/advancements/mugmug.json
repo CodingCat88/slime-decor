@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "slime_decor:creeper_mug"
+    },
+    "title": {
+      "translate": "advancements.mugmug.title"
+    },
+    "description": {
+      "translate": "advancements.mugmug.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mugmug_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "slime_decor:creeper_mug"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:adventure/sleep_in_bed"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bcb",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:white_wool"
+    },
+    "b": {
+      "item": "minecraft:orange_wool"
+    },
+    "c": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "slime_decor:fox_plush",
+    "count": 1
+  }
+}

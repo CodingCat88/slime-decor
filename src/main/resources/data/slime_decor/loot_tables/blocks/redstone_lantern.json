@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "slime_decor:blocks/redstone_lantern",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "slime_decor:redstone_lantern"
+        }
+      ]
+    }
+  ]
+}
