@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "slime_decor",
+	"version": "${version}",
+	"name": "SlimeDecorMod",
+	"description": "Decor Mod with models from TheSlimeYT",
+	"authors": [
+		"xQuiekel",
+		"TheSlimeIdk",
+		"CodingCat08"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "ARR",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"x.quiekel.decorcat.SlimeDecorMod"
+		]
+	},
+	"mixins": [
+		"slime_decor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
