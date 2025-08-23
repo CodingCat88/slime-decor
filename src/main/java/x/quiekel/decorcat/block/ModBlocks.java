@@ -140,6 +140,18 @@ public class ModBlocks {
             ModItemGroup.PLUSHES
     );
 
+    public static final Block REKSTAR_PLUSHIE = registerBlock(
+            "rekstar_plushie",
+            new RekPlushieBlock(FabricBlockSettings
+                    .of(Material.AIR)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .strength(1f, 10f)
+                    .nonOpaque()
+                    .solidBlock((state, world, pos) -> false)
+            ),
+            ModItemGroup.PLUSHES
+    );
+
     private static Block registerBlockWithoutTab(String name, Block block) {
         registerBlockItemWithoutTab(name, block);
         return Registry.register(Registry.BLOCK, new Identifier(SlimeDecorMod.MOD_ID, name), block);

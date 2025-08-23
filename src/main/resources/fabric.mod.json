@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "slime_decor",
 	"version": "${version}",
-	"name": "SlimeDecorMod",
+	"name": "Slime's Decor",
 	"description": "Decor Mod with models from TheSlimeYT",
 	"authors": [
 		"xQuiekel",
@@ -14,7 +14,7 @@
 		"sources": ""
 	},
 	"license": "ARR",
-	"icon": "logo.png",
+	"icon": "assets/slime_decor/logo.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

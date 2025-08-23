@@ -40,5 +40,8 @@
   "advancements.toastnotfound.descr": "What\u0027s this supposed to be again?",
   "block.slime_decor.proto_toaster": "Proto Toaster",
   "advancements.toastnotfound.title": "Error 404: toast not found",
-  "block.slime_decor.slime_plush": "Slime Plush"
+  "block.slime_decor.slime_plush": "Slime Plush",
+  "block.slime_decor.rekstar_plushie": "Rekstar Plushie",
+  "advancements.microwave.title": "Rekstar Dad is the Inventor of Microwaves",
+  "advancements.microwave.descr": "Inventor of Microwaves"
 }
