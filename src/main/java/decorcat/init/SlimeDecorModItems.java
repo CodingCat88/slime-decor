@@ -26,9 +26,9 @@ public class SlimeDecorModItems {
 	public static final RegistryObject<Item> MONKEY_D_FOXY = block(SlimeDecorModBlocks.MONKEY_D_FOXY);
 	public static final RegistryObject<Item> KIRBY_PLUSHIE = block(SlimeDecorModBlocks.KIRBY_PLUSHIE);
 	public static final RegistryObject<Item> MONKEY_D_LUFFY_PLUSHIE = block(SlimeDecorModBlocks.MONKEY_D_LUFFY_PLUSHIE);
+	public static final RegistryObject<Item> REKSTAR_PLUSHIE = block(SlimeDecorModBlocks.REKSTAR_PLUSHIE);
 
-	// Start of user code block custom items
-	// End of user code block custom items
+
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}

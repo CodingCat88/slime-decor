@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "tbc",
+    "gwe",
+    "wgd"
+
+  ],
+  "key": {
+    "t": {
+      "item": "slime_decor:proto_toaster"
+    },
+    "b": {
+      "item": "minecraft:blue_wool"
+    },
+    "c": {
+      "item": "minecraft:blue_carpet"
+    },
+    "g": {
+      "item": "minecraft:gray_wool"
+    },
+    "w": {
+      "item": "minecraft:white_wool"
+    },
+    "e": {
+      "item": "minecraft:light_blue_stained_glass_pane"
+    },
+    "d": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "slime_decor:rekstar_plushie",
+    "count": 1
+  }
+}

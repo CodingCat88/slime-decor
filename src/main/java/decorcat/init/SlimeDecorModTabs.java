@@ -26,6 +26,7 @@ public class SlimeDecorModTabs {
 				tabData.accept(SlimeDecorModBlocks.MONKEY_D_FOXY.get().asItem());
 				tabData.accept(SlimeDecorModBlocks.KIRBY_PLUSHIE.get().asItem());
 				tabData.accept(SlimeDecorModBlocks.MONKEY_D_LUFFY_PLUSHIE.get().asItem());
+				tabData.accept(SlimeDecorModBlocks.REKSTAR_PLUSHIE.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> DECOR = REGISTRY.register("decor",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.slime_decor.decor")).icon(() -> new ItemStack(SlimeDecorModBlocks.CREEPER_MUG.get())).displayItems((parameters, tabData) -> {

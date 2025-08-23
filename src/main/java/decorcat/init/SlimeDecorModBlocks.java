@@ -4,22 +4,12 @@
  */
 package decorcat.init;
 
+import decorcat.block.*;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
-
-import decorcat.block.UziPlushieBlock;
-import decorcat.block.SlimePlushBlock;
-import decorcat.block.RedstoneLanternBlock;
-import decorcat.block.ProtoToasterBlock;
-import decorcat.block.NPlushBlock;
-import decorcat.block.MonkeyDLuffyPlushieBlock;
-import decorcat.block.MonkeyDFoxyBlock;
-import decorcat.block.KirbyPlushieBlock;
-import decorcat.block.FoxPlushBlock;
-import decorcat.block.CreeperMugBlock;
 
 import decorcat.SlimeDecorMod;
 
@@ -35,6 +25,6 @@ public class SlimeDecorModBlocks {
 	public static final RegistryObject<Block> MONKEY_D_FOXY = REGISTRY.register("monkey_d_foxy", () -> new MonkeyDFoxyBlock());
 	public static final RegistryObject<Block> KIRBY_PLUSHIE = REGISTRY.register("kirby_plushie", () -> new KirbyPlushieBlock());
 	public static final RegistryObject<Block> MONKEY_D_LUFFY_PLUSHIE = REGISTRY.register("monkey_d_luffy_plushie", () -> new MonkeyDLuffyPlushieBlock());
-	// Start of user code block custom blocks
-	// End of user code block custom blocks
+	public static final RegistryObject<Block> REKSTAR_PLUSHIE = REGISTRY.register("rekstar_plushie", () -> new RekPlushieBlock());
+
 }
