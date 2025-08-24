@@ -4,6 +4,7 @@
  */
 package decorcat.init;
 
+import net.minecraft.world.entity.monster.Slime;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 
@@ -31,5 +32,6 @@ public class SlimeDecorModTabs {
 	public static final RegistryObject<CreativeModeTab> DECOR = REGISTRY.register("decor",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.slime_decor.decor")).icon(() -> new ItemStack(SlimeDecorModBlocks.CREEPER_MUG.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SlimeDecorModBlocks.CREEPER_MUG.get().asItem());
+				tabData.accept(SlimeDecorModBlocks.TNT_MUG.get().asItem());
 			}).withTabsBefore(PLUSHES.getId()).build());
 }

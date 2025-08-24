@@ -26,5 +26,6 @@ public class SlimeDecorModBlocks {
 	public static final RegistryObject<Block> KIRBY_PLUSHIE = REGISTRY.register("kirby_plushie", () -> new KirbyPlushieBlock());
 	public static final RegistryObject<Block> MONKEY_D_LUFFY_PLUSHIE = REGISTRY.register("monkey_d_luffy_plushie", () -> new MonkeyDLuffyPlushieBlock());
 	public static final RegistryObject<Block> REKSTAR_PLUSHIE = REGISTRY.register("rekstar_plushie", () -> new RekPlushieBlock());
+	public static final RegistryObject<Block> TNT_MUG = REGISTRY.register("tnt_mug", () -> new TNTMugBlock());
 
 }

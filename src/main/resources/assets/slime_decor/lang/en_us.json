@@ -43,5 +43,8 @@
   "block.slime_decor.slime_plush": "Slime Plush",
   "block.slime_decor.rekstar_plushie": "Rekstar Plushie",
   "advancements.microwave.title": "Rekstar Dad is the Inventor of Microwaves",
-  "advancements.microwave.descr": "Inventor of Microwaves"
+  "advancements.microwave.descr": "Inventor of Microwaves",
+  "block.slime_decor.tnt_mug": "TNT Mug",
+  "advancements.cooldown.title": "3..2..1, oh wait, it's just a mug",
+  "advancements.cooldown.descr": "The next successful mug"
 }

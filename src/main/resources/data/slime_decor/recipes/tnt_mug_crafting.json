@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cad"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:brick"
+    },
+    "b": {
+      "item": "minecraft:tnt"
+    },
+    "c": {
+      "item": "minecraft:white_dye"
+    },
+    "d": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "slime_decor:tnt_mug",
+    "count": 1
+  }
+}

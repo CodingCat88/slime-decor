@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "slime_decor:rekstar_plushie"
+      "item": "slime_decor:tnt_mug"
     },
     "title": {
-      "translate": "advancements.microwave.title"
+      "translate": "advancements.cooldown.title"
     },
     "description": {
-      "translate": "advancements.microwave.descr"
+      "translate": "advancements.cooldown.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "microwave_inventor_0": {
+    "cooldown_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "slime_decor:rekstar_plushie"
+              "slime_decor:tnt_mug"
             ],
             "count": {
               "min": 1,

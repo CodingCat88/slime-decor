@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "slime_decor:block/tnt_mug"
+    },
+    "facing=east": {
+      "model": "slime_decor:block/tnt_mug",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "slime_decor:block/tnt_mug",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "slime_decor:block/tnt_mug",
+      "y": 270
+    }
+  }
+}
