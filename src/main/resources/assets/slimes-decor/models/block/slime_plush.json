@@ -1,0 +1,11 @@
+{
+  "parent": "slimes-decor:custom/slime_plushie",
+  "textures": {
+    "all": "slimes-decor:block/spt1",
+    "particle": "slimes-decor:block/spt1",
+    "0": "slimes-decor:block/spt1",
+    "1": "slimes-decor:block/spt2",
+    "2": "slimes-decor:block/spt3"
+  },
+  "render_type": "solid"
+}

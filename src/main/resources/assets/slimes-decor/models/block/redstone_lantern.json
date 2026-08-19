@@ -1,0 +1,11 @@
+{
+  "parent": "slimes-decor:custom/lantern",
+  "textures": {
+    "all": "slimes-decor:block/lt2",
+    "particle": "slimes-decor:block/lt2",
+    "0": "slimes-decor:block/lt1",
+    "1": "slimes-decor:block/lt2",
+    "missing": "slimes-decor:block/"
+  },
+  "render_type": "solid"
+}

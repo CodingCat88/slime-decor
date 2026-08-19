@@ -1,0 +1,10 @@
+{
+  "parent": "slimes-decor:custom/coffeemug",
+  "textures": {
+    "all": "slimes-decor:block/mugtex",
+    "particle": "slimes-decor:block/mugtex",
+    "0": "slimes-decor:block/mugtex",
+    "1": "slimes-decor:block/coffeetex"
+  },
+  "render_type": "solid"
+}

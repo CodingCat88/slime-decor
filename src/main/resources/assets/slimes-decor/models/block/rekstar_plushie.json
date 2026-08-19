@@ -1,0 +1,9 @@
+{
+  "parent": "slimes-decor:custom/rekstar_plushie",
+  "textures": {
+    "all": "slimes-decor:block/rektexture",
+    "particle": "slimes-decor:block/rektexture",
+    "0": "slimes-decor:block/rektexture"
+  },
+  "render_type": "solid"
+}

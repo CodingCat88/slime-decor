@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "slimes-decor",
+	"version": "${version}",
+	"name": "Slimes Decor",
+	"description": "A mod that adds a couple cool plushies! (Ported by Yvaine)",
+	"authors": [
+		"Coding Cat",
+		"TheSlime",
+		"Yvaine"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "ARR",
+	"icon": "assets/slimes-decor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gg.yvaine.decor.SlimesDecor"
+		],
+		"fabric-datagen": [
+			"gg.yvaine.decor.SlimesDecorDataGenerator"
+		]
+	},
+	"mixins": [
+		"slimes-decor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

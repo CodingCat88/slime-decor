@@ -1,0 +1,9 @@
+{
+  "parent": "slimes-decor:custom/kirby",
+  "textures": {
+    "all": "slimes-decor:block/kirbytexture",
+    "particle": "slimes-decor:block/kirbytexture",
+    "0": "slimes-decor:block/kirbytexture"
+  },
+  "render_type": "solid"
+}

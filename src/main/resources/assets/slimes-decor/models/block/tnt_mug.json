@@ -1,0 +1,9 @@
+{
+  "parent": "slimes-decor:custom/tnt_mug",
+  "textures": {
+    "all": "slimes-decor:block/tntmugtexture",
+    "particle": "slimes-decor:block/tntmugtexture",
+    "0": "slimes-decor:block/tntmugtexture"
+  },
+  "render_type": "solid"
+}

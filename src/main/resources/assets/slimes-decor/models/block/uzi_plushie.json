@@ -1,0 +1,9 @@
+{
+  "parent": "slimes-decor:custom/uziplush",
+  "textures": {
+    "all": "slimes-decor:block/uzi",
+    "particle": "slimes-decor:block/uzi",
+    "0": "slimes-decor:block/uzi"
+  },
+  "render_type": "solid"
+}

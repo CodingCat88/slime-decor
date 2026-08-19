@@ -1,0 +1,9 @@
+{
+  "parent": "slimes-decor:custom/luffy_plushie",
+  "textures": {
+    "all": "slimes-decor:block/luffy_texture",
+    "particle": "slimes-decor:block/luffy_texture",
+    "0": "slimes-decor:block/luffy_texture"
+  },
+  "render_type": "translucent"
+}
