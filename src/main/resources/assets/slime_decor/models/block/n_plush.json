@@ -1,0 +1,21 @@
+{
+  "parent": "slime_decor:custom/nplush",
+  "textures": {
+    "all": "slime_decor:block/ntexture1",
+    "particle": "slime_decor:block/ntexture1",
+    "11": "slime_decor:block/ntexture11",
+    "12": "slime_decor:block/ntexture12",
+    "0": "slime_decor:block/ntexture1",
+    "1": "slime_decor:block/ntexture2",
+    "2": "slime_decor:block/ntexture3",
+    "3": "slime_decor:block/ntexture4",
+    "4": "slime_decor:block/ntexture5",
+    "5": "slime_decor:block/ntexture6",
+    "7": "slime_decor:block/ntexture7",
+    "8": "slime_decor:block/ntexture8",
+    "missing": "slime_decor:block/",
+    "9": "slime_decor:block/ntexture9",
+    "10": "slime_decor:block/ntexture10"
+  },
+  "render_type": "solid"
+}

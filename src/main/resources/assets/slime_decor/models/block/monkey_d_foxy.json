@@ -1,0 +1,9 @@
+{
+  "parent": "slime_decor:custom/monkey_d_foxy",
+  "textures": {
+    "all": "slime_decor:block/monkeydfoxytexture",
+    "particle": "slime_decor:block/monkeydfoxytexture",
+    "0": "slime_decor:block/monkeydfoxytexture"
+  },
+  "render_type": "solid"
+}

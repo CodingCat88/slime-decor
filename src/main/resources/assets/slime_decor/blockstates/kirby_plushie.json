@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "slime_decor:block/kirby_plushie"
+    },
+    "facing=east": {
+      "model": "slime_decor:block/kirby_plushie",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "slime_decor:block/kirby_plushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "slime_decor:block/kirby_plushie",
+      "y": 270
+    }
+  }
+}

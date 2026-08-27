@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "slime_decor",
+	"version": "${version}",
+	"name": "Slime's Decor",
+	"description": "Fabric Port of a Decor Mod with models from TheSlimeYT",
+	"authors": [
+		"Fabric Port Guy: xQuiekel",
+		"Original Forge Coder: CodingCat08",
+		"Artist: TheSlimeIdk"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/slimes-decor",
+		"sources": "https://github.com/CodingCat88/slime-decor"
+	},
+	"license": "ARR",
+	"icon": "assets/slime_decor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"x.quiekel.SlimeDecor"
+		],
+		"client": [
+			"x.quiekel.SlimeDecorClient"
+		],
+		"fabric-datagen": [
+			"x.quiekel.SlimeDecorDataGenerator"
+		]
+	},
+	"mixins": [
+		"slime_decor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

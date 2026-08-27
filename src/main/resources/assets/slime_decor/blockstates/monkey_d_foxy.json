@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "slime_decor:block/monkey_d_foxy"
+    },
+    "facing=east": {
+      "model": "slime_decor:block/monkey_d_foxy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "slime_decor:block/monkey_d_foxy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "slime_decor:block/monkey_d_foxy",
+      "y": 270
+    }
+  }
+}
